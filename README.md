@@ -1,6 +1,12 @@
 # weather_forecast_api_service
 Weather Forecast API Service
 
+A weather forecast application which can interact with the weather api and show a weather forecast
+for a particular city. The application would allow the users to login, select a country and city from the list
+and extract forecast information for a particular date range. It also allows the app maintainers to perform
+analytics and display top n users who have access forecast service and most commonly queried city and
+country.
+
 This application has a dependency on SQL Lite.
 To set this application in your local machine, follow the instructures
 1. Create a new virtual environment
