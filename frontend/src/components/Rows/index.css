@@ -1,0 +1,33 @@
+.flexRow{
+    display: flex;
+    justify-content: space-around;
+}
+.cell{
+    border: solid 1px red;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-width: 1px !important;
+}
+
+.mainTable{
+    table-layout: fixed;
+    width: 100%;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+    object-fit: contain;
+    height: 80px;
+}
+
+.w20{
+    width: 25%;
+}

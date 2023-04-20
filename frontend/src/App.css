@@ -1,0 +1,49 @@
+* {
+  left: 12%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 2vh;
+  padding: '2rem';
+}
+
+.weather-card {
+  width: 76vw;
+  min-height: 30vh;
+  padding: '2rem';
+  opacity: 0.8;
+  position:relative;
+  top: 3vh;
+}
+
+.weather-card:hover {
+  opacity: 1;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 8vh;
+}
+.body{
+  display: flex;
+  width: 80%;
+  margin : 0 auto;
+  flex-direction: column;
+  margin-top : 20px;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+.error{
+  margin-top: 40px;
+   text-align: center;
+}
+.choice{
+  display: flex;
+  justify-content: flex-end;
+}
